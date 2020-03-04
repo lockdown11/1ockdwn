@@ -82,6 +82,7 @@ body {
   top: 350px;
   width: 428px;
   height: 352px;
+  overflow: hidden;
   z-index: 10;
 }
 
