@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'Lobster', cursive;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 
@@ -18,7 +18,7 @@ body {
     width: 100%;
     background-color: white;
     color: black;
-    font-size: 54px;
+    font-size: 74px;
     text-align: center;
     float: left;
     display: flex;
