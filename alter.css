@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+
+#gora {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 54px;
+    text-align: center;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#lewy {
+    height: 700px;
+    width: 15%;
+    background-color: white;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: black;
+}
+
+#prawy {
+    height: 700px;
+    width: 85%;
+    background-color: white;
+    background-image: url(tlo.jpg);
+    background-size: 1700px 900px;
+    float: left;
+    color: black;
+}
+
+.glowne {
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 85%;
+    height: 645px;
+    float: left;
+    position: absolute;
+    top: 175px;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glowne1 {
+
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: absolute;
+  left: 511px;
+  top: 350px;
+  width: 428px;
+  height: 352px;
+  overflow: hidden;
+  z-index: 9;
+}
+.glowne2 {
+
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: absolute;
+  left: 1280px;
+  top: 350px;
+  width: 428px;
+  height: 352px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+#stopka {
+    background-color: white;
+    clear: both;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+li{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+a {
+    font-size: 26px;
+    -webkit-user-select: none;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 10px 200px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+
+.form{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,.4);
+    flex-flow: column;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+}
+
+input{
+    border: 0;
+    border-bottom: 1px solid white;
+    background: 0;
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    height: 40px;
+}
+
+.wyslij{
+    background: white;
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.wyslij:hover{
+    background: black;
+    color: white;
+    transition: all 0.3s;
+}
+.mapa{
+    background: white;
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.mapa:hover{
+    background: black;
+    color: white;
+    transition: all 0.3s;
+}
+
+
+a:hover {
+    color: black;
+    background-color: white;
+    transition: background-color .5s;
+    width: 100%;
+    height: 15%;
+}
