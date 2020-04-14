@@ -101,7 +101,7 @@ li{
 }
 
 
-a {
+.menu {
     font-size: 26px;
     -webkit-user-select: none;
     width: 100%;
