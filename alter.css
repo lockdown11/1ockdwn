@@ -104,7 +104,7 @@ li{
 }
 
 
-a {
+.menu {
     font-size: 26px;
     -webkit-user-select: none;
     width: 100%;
@@ -171,7 +171,7 @@ input{
 }
 
 
-a:hover {
+.menu:hover {
     color: black;
     background-color: white;
     transition: background-color .5s;
